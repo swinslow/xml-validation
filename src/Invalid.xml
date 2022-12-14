@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SPDXLicenseCollection xmlns="http://www.spdx.org/license">
+   <hi />
+   <license isOsiApproved="true" licenseId="Invalid" name="Invalid XML">
+      <crossRefs>
+         <crossRef>https://example.com</crossRef>
+      </crossRefs>
+    <text>
+      <titleText>
+	 <p>Invalid XML</p>
+      </titleText>
+      <copyrightText>
+         <p>Copyright (c) &lt;year&gt; &lt;copyright holders&gt;
+         </p>
+      </copyrightText>
+
+      <p>This license contains an invalid "hi" tag at line 3.</p>
+    </text>
+  </license>
+</SPDXLicenseCollection>
