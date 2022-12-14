@@ -19,5 +19,8 @@ def validateXMLFile(xmlFilename, spdxSchema):
 if __name__ == "__main__":
     spdxSchema = xmlschema.XMLSchema("ListedLicense.xsd")
     paths = getAllXMLFiles("src")
+    print(f"Checking {len(paths)} licenses and exceptions for schema validation...")
     for xf in paths:
         validateXMLFile(xf, spdxSchema)
+    # if we get here, all passed
+    print(f"All licenses and exceptions validated against schema.")
